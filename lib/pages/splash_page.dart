@@ -2,12 +2,12 @@ import 'package:flutter/material.dart';
 import 'package:flutter/src/widgets/container.dart';
 import 'package:flutter/src/widgets/framework.dart';
 
-import 'package:aula_flutter/routes.dart';
+import 'package:helloworld/routes.dart';
 
-import 'package:aula_flutter/widgets/custom_logo.dart';
+import 'package:helloworld/widgets/custom_logo.dart';
 
 class SplashPage extends StatefulWidget {
-  const SplashPage({super.key});
+  const SplashPage({key});
 
   @override
   State<SplashPage> createState() => _SplashPageState();

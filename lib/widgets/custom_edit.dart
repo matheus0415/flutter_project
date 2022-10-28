@@ -12,7 +12,7 @@ class CustomEdit extends StatelessWidget {
   final FormFieldValidator<String> validator;
 
   const CustomEdit({
-    super.key,
+    key,
     required this.controller,
     required this.hintText,
     required this.icon,
