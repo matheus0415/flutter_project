@@ -3,12 +3,12 @@ import 'package:flutter/src/widgets/framework.dart';
 
 import 'package:flutter/material.dart';
 
-import 'package:aula_flutter/widgets/custom_logo.dart';
-import 'package:aula_flutter/widgets/custom_edit.dart';
-import 'package:aula_flutter/widgets/custom_button.dart';
-import 'package:aula_flutter/models/usuario.dart';
-import 'package:aula_flutter/db/database.dart';
-import 'package:aula_flutter/routes.dart';
+import 'package:helloworld/widgets/custom_logo.dart';
+import 'package:helloworld/widgets/custom_edit.dart';
+import 'package:helloworld/widgets/custom_button.dart';
+import 'package:helloworld/models/usuario.dart';
+import 'package:helloworld/db/database.dart';
+import 'package:helloworld/routes.dart';
 
 class LoginPage extends StatefulWidget {
   const LoginPage({super.key});
